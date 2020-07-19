@@ -1,11 +1,25 @@
 # Indonesia_Trending_Youtube_Analysis
 #### Analysis of Top 200 trending videos from Jul 8th 2020 - Jul 14th 2020
 
-1. Obtain data from Youtube API v3, https://socialblade.com/
-2. Analysis and EDA with Python
-3. Dashboard Createion with Plotly and Dash 
+#### Dataset: 
+- https://developers.google.com/youtube/v3
+- https://socialblade.com/
 
-#### Data source: https://developers.google.com/youtube/v3, https://socialblade.com/
+### Tools/Framework Used
+- Web Scraping: BeautifulSoup
+- EDA and Graphs: Matplotlib, Seaborn
+- Worcloud: Stylecloud (https://github.com/minimaxir/stylecloud)
+- Topic Modelling: LDA
+- Thumbnail Image Analysis: YOLOv3 (https://pjreddie.com/darknet/yolo/)
+- Dashboard Web Application: Plotly, Dash (https://plotly.com/)
+- Deployment: Heroku (https://www.heroku.com/)
+- Data Cleaning/Manipulation: Python
+
+### Procedure:
+1. Obtain data from Youtube API v3 using code from (https://github.com/mitchelljy/Trending-YouTube-Scraper), Scrape data from https://socialblade.com/
+2. Analysis and EDA with Python
+3. Dashboard creation with Plotly and Dash 
+4. Deployment of Plotly, Dash Application
 
 ### Link to Analytical Report and EDA:
 #### https://nbviewer.jupyter.org/github/jsantoso2/Indonesia_Trending_Youtube_Analysis/blob/master/02_EDA_Clean.ipynb
